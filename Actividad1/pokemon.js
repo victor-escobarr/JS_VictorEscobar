@@ -1,4 +1,4 @@
-//creamos la clase 
+//console.log("Hola mundo");
 class Pokemon {
     constructor (nombre,naturaleza,tipo,vida,ataque,defensa,velocidad,nivel) {
         this.nombre = nombre;
@@ -17,13 +17,13 @@ class Pokemon {
     }
     //suma
     suma(){
-        suma = this.vida+this.ataque+this.defensa+this.velocidad;
+        let suma = this.vida+this.ataque+this.defensa+this.velocidad;
         console.log('La suma de tus estadisticas es '+suma+'');
     }
     //estadisticas
     estadisticas(){
-        suma = this.vida+this.ataque+this.defensa+this.velocidad;
-        div = suma/4
+        let suma = this.vida+this.ataque+this.defensa+this.velocidad;
+        let div = suma/4
         console.log ('El promedio de tus estadisticas es '+div+'');
     }
     //subir nivel
@@ -34,6 +34,8 @@ class Pokemon {
         console.log('Su pokémon era nivel '+this.nivel+'');
         this.nivel++;
         console.log('Su pokémon ahora es nivel '+this.nivel+'');
+
+        // Sube alguno de sus stats dependiendo de la naturaleza del pokemon
 
         switch (this.naturaleza) {
             case 'Audaz':
