@@ -1,0 +1,17 @@
+body{
+  background-image: url("./hoja.jpg");
+}
+canvas{
+  position: absolute;
+  top: 82px;
+  left: 236px;
+  background-image: url("./hoja.jpg");
+}
+#fig{
+  position: absolute;
+  top: 81px;
+  left: 554.2px;
+  width: 150px;
+  height: 230px;
+  background-image: url("./hoja.jpg");
+}

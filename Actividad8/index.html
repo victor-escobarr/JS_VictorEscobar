@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="myCanvas" height="230px" width="320px"></canvas>
+    <div id=fig>
+        <label><strong>Figura</strong> <br>
+          <select name="op2" id="figuras">
+            <option value="1">Estrella</option>
+            <option value="2">Mickey Mouse</option>
+            <option value="3">Avion</option>
+          </select>
+        </label>
+        <br><br>
+        <label><strong>Tipo de color de fondo</strong> 
+          <select name="op1" id="tipoColor">
+              <option value="1">Degradado Lineal</option>
+              <option value="2">Degradado Radian</option>
+              <option value="3">Solido</option>
+          </select>
+        </label>
+        <br><br>
+        <label><strong>Colores</strong> 
+          <br>
+          <input type="color" id="c1">
+          <br>
+          <input type="color" id="c2">
+        </label>
+    </div>
+    <script src="./index.js"></script>   
+</body>
+</html>
